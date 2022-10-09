@@ -1,0 +1,126 @@
+/*These are the css properties for the navigation bar.*/
+.navbar{
+    position: fixed;
+    background-color: #F4D35E;
+    box-shadow: 0 0 20px #26262628; 
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/*These are the css properties for the homepage.*/
+.home{
+    cursor: pointer;
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    column-gap: 1%;
+}
+
+.mylogo{
+    width: 50px;
+    height: 50px; 
+    padding-left: 15%;
+}
+
+.mylogo:hover{
+    opacity: 0.8;
+}
+
+.mylogo:active{
+    opacity: 0.5;
+}
+
+.home a{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-decoration: none; 
+    padding-left: 15%;
+}
+
+/*These are the css properties for the navigation menu.*/
+.menu{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.menu a{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.homepage{
+    transition: padding-bottom 0.15s, opacity 0.15s;
+}
+
+.homepage:hover{
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.homepage:active{
+    opacity: 0.4;
+}
+
+.about{
+    transition: padding-bottom 0.15s, opacity 0.15s;
+}
+
+.about:hover{
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.about:active{
+    opacity: 0.4;
+}
+
+.portfolio{
+    transition: padding-bottom 0.15s opacity 0.15s;
+}
+
+.portfolio:hover{
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.portfolio:active{
+    opacity: 0.4;
+}
+
+.contact{
+    padding-right: 15%;
+    transition: padding-bottom 0.15s, opacity 0.15s;
+}
+
+.contact:hover{   
+    padding-bottom: 5px;
+    opacity: 0.8;
+}
+
+.contact:active{
+    opacity: 0.4;
+}
+
+
+
+

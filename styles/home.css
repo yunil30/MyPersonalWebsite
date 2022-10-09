@@ -1,0 +1,83 @@
+/*These are the css properties for the homepage.*/
+#home{
+    position: relative;
+    background-color: #FEFAEC;
+    /* background-image: url(../images/RetroEff1.png);
+    background-size: cover;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 25%;
+}
+
+/*These are the css properties for the homepage description.*/
+.home-info{
+    width: 70%;
+    text-align: center;
+    padding-top: 18%;
+}
+
+.home-info p{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 80px;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px #0f1a20b6;
+}
+
+.Home-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.Home-button a{
+    text-decoration: none;
+}
+
+/*Homepage text button codes*/
+.Home-button p{
+    cursor: pointer;
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 1px #233c49ec;
+    margin-bottom: 5px;
+}
+
+.Home-button p:hover{
+    font-size: 17px;
+    margin-top: 1px;
+    opacity: 0.8;
+}
+
+.Home-button p:active{
+    opacity: 0.5;
+}
+
+/*Homepage image button codes*/
+.Home-button img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.Home-button img:hover{
+    margin-top: 2px;
+    width: 28px;
+    height: 28px;
+}
+
+.Home-button img:active{
+    opacity: 0.5;
+}
+

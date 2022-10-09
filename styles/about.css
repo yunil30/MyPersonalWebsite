@@ -1,0 +1,87 @@
+/*These are the css properties for the about section.*/
+#about{
+    position: relative;
+    background-color: #FCF0C5;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.about-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.about-title h2{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: start;
+    margin-bottom: 3%;
+}
+
+.about-info{
+    background-color: #FEFAEC;
+    border-radius: 12px;
+    box-shadow: 0 3px 5px rgba(128, 128, 128, 0.350);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 18%;
+    padding: 2% 2%;
+    gap: 2%;
+}
+
+.about-info-scroll{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.about-info-scroll::-webkit-scrollbar{
+    width: 8px;
+}
+
+.about-info-scroll::-webkit-scrollbar-track{
+    background: #FCF0C5;
+    border-radius: 100vw;
+}
+
+.about-info-scroll::-webkit-scrollbar-thumb{
+    background: #F4D35E;
+    border-radius: 100vw;
+}
+
+.about-info p{
+    width: 100%;
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 250%;
+    text-decoration: none;
+    text-align: start;  
+}
+
+.about-info img{
+    width: 30%;
+    height: 100%;
+}
+
+
+
+
+

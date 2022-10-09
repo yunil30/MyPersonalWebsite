@@ -1,0 +1,158 @@
+/*These are the css properties for the portfolio section.*/
+#portfolio{
+    position: relative;
+    background-color: #FEFAEC;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.portfolio-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.portfolio-title h2{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: start;
+    margin-bottom: 3%;
+}
+
+/*These are the css properties for the portfolio description.*/
+.portfolio-info {
+    background-color: #FCF0C5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.350);
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    margin-bottom: 1%;
+    padding: 2% 2%;
+    gap: 5%;
+}
+    
+.portfolio-pic{
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: #0F1A20;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-pic img{
+    width: 200px;
+    height: 200px;
+}
+
+.portfolio-description{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.portfolio-description h3{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.description-scrollbar{
+    height: 171px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.description-scrollbar::-webkit-scrollbar{
+    width: 8px;
+}
+
+.description-scrollbar::-webkit-scrollbar-track{
+    background: #FEFAEC;
+    border-radius: 100vw;
+}
+
+.description-scrollbar::-webkit-scrollbar-thumb{
+    background: #F4D35E;
+    border-radius: 100vw;
+}
+
+.portfolio-description p{
+    color: #0F1A20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 250%;
+    text-decoration: none;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.portfolio-description-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.portfolio-description-buttons button{
+    background-color: white;
+    border:  2px;
+    border-color: #0F1A20;
+    border-radius: 5px;
+    border-style: solid;
+    color: #0F1A20;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 180px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    align-items: center;
+    padding: 5px 8px 5px 12px;
+    margin: 10px 15px 0 0;
+}
+
+.portfolio-description-buttons a{
+    text-decoration: none;
+}
+
+.portfolio-description-buttons button:hover{
+    background-color: #0F1A20;
+    color: white;
+}
+
+.portfolio-description button:active{
+    opacity: 0.5;
+}
